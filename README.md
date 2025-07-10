@@ -12,7 +12,7 @@ This project uses metadata from poetic manuscripts (especially **CELM numbers**,
 
 We propose a composite **popularity score** built from three indicators:
 
-- **Frequency**: How often the poem appears
+- **Frequency**: How often the poem appears (and how many other poems are in that manuscript)
 - **Date range span**: How long it circulated (first to last copy)
 - **Repository diversity**: How many distinct libraries it appears in
 
@@ -21,12 +21,6 @@ The goal is to **surface which works truly traveled and endured**, and to reflec
 ---
 
 ## 🧮 Popularity Score Formula
-As part of the project we identified four indicators of popularity: 
-- number of times the poem was copied
-- the number of other poems in the manuscript which the poem was copied in
-- The data range from the first transcription of the poem to the last
-- The number of unique locations the poem occurred in
-
 I began by weighting each indicator equally translating it into a score between 0 and 1 by dividing each indicator by the maximum of the indicator:
 
 ```text
@@ -61,7 +55,39 @@ stemma-popularity/
 ```
 ---
 
-## 🗃️ Optional: Using the SQL File with PostgreSQL
+## Option 1: Using CSV files (requires processing 40 mb through memory)
+
+This guide explains how to generate popularity scores using only the raw CSV files.
+
+---
+
+### 📁 Required Files
+
+From the google drive download:
+
+- `stemma_extra_fields.csv`
+- `manuscript_items_07_07_25.csv`
+
+---
+
+### 🐍 Step 1: Set Up the Environment
+
+If you haven’t already:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/stemma-popularity.git
+cd stemma-popularity
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 📂 Step 2: Run the CSV Pipeline
+
+
+
+## 🗃️ Option 2: Using the SQL File with PostgreSQL
 
 If you prefer to work with a structured SQL database instead of raw CSVs, you can import the full dataset into PostgreSQL using the provided `.sql` dump.
 
