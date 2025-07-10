@@ -102,7 +102,7 @@ MIT License – feel free to use, modify, or build upon this project.
 
 ## 🙌 Acknowledgements
 
-Thanks to the organizers of the **Stemma Hackathon**, and to all those preserving and cataloguing manuscript poetry — especially the **CELM** project.
+Thanks to the organizers of the **Stemma Hackathon**, and to all those preserving and cataloguing manuscript poetry and to the Portershed for facilitating this event
 
 
 
