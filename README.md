@@ -24,3 +24,15 @@ The goal is to **surface which works truly traveled and endured**, and to reflec
 
 ```text
 Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
+
+## Repository Structure
+stemma-popularity/
+├── data/                  # Manuscript metadata and inputs
+├── notebooks/             # Jupyter notebooks for analysis and demo
+├── scripts/               # Modular Python scripts
+├── results/               # Output scores and charts
+├── presentation/          # Slides, flowchart, and recordings
+├── requirements.txt       # Dependencies
+├── LICENSE
+└── README.md
+
