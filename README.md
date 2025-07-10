@@ -23,7 +23,8 @@ The goal is to **surface which works truly traveled and endured**, and to reflec
 ## 🧮 Popularity Score Formula
 
 ```text
-Popularity Score = (NormFreq + NormSpan + NormRepo) / 3'''
+Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
+```
 
 ## Repository Structure
 stemma-popularity/
@@ -35,5 +36,49 @@ stemma-popularity/
 ├── requirements.txt       # Dependencies
 ├── LICENSE
 └── README.md
+
+## 🎥 Presentation
+
+- 📊 **Slide deck**  
+  _presentation/Popularity_Score_Presentation.pptx_
+
+- 🔁 **Flowchart of algorithm**  
+  _presentation/flowchart.png_
+
+- 📹 _Optional video demo (link if hosted externally)_
+
+---
+
+## 🧠 Reflections
+
+This project evolved from several early approaches:
+
+- ❌ Lemmatising and matching poem first lines
+- ❌ Semantic embeddings and cosine distance
+- ✅ Using CELM numbers and structured metadata
+
+It reveals both the **possibilities and limits** of computational popularity in literary archives.
+
+---
+
+## 🌱 Future Directions
+
+- Compare scores to **literary critical reception**
+- Correlate popularity with **poetic features** (genre, quality, form)
+- Model **temporal decay** or **geographic spread** separately
+- Visualize diffusion pathways across time & libraries
+
+---
+
+## 📜 License
+
+MIT License – feel free to use, modify, or build upon this project.
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to the organizers of the **Stemma Hackathon**, and to all those preserving and cataloguing manuscript poetry — especially the **CELM** project.
+
 
 
