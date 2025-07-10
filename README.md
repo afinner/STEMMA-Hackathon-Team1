@@ -25,7 +25,8 @@ As part of the project we identified four indicators of popularity:
 - number of times the poem was copied
 - the number of other poems in the manuscript which the poem was copied in
 - The data range from the first transcription of the poem to the last
-- The number of unique locations the poem occurred in  
+- The number of unique locations the poem occurred in
+
 I began by weighting each indicator equally translating it into a score between 0 and 1 by dividing each indicator by the maximum of the indicator:
 
 ```text
@@ -94,7 +95,7 @@ I used both DBeaver and the VSCode plugin as clients to view data and queries.
 This project evolved from several early approaches:
 
 - ❌ Lemmatising and matching poem first lines
-- ❌ Semantic embeddings and cosine distance
+- ❌ Semantic embeddings and cosine similarities
 - ✅ Using CELM numbers and structured metadata
 
 It reveals both the **possibilities and limits** of computational popularity in literary archives.
@@ -118,7 +119,7 @@ MIT License – feel free to use, modify, or build upon this project.
 
 ## 🙌 Acknowledgements
 
-Thanks to the organizers of the **Stemma Hackathon**, and to all those preserving and cataloguing manuscript poetry and to the Portershed for facilitating this event
+Thanks to the organizers of the **Stemma Hackathon** ([Stemma](https://stemma.universityofgalway.ie/)), and to all those preserving and cataloguing manuscript poetry and to the [Portershed](https://portershed.com/) for facilitating this event
 
 
 
