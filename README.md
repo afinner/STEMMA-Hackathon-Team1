@@ -27,6 +27,7 @@ Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
 ```
 
 ## Repository Structure
+```text
 stemma-popularity/
 ├── data/                  # Manuscript metadata and inputs
 ├── notebooks/             # Jupyter notebooks for analysis and demo
@@ -36,7 +37,7 @@ stemma-popularity/
 ├── requirements.txt       # Dependencies
 ├── LICENSE
 └── README.md
-
+```
 ## 🎥 Presentation
 
 - 📊 **Slide deck**  
