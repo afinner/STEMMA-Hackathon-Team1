@@ -21,6 +21,12 @@ The goal is to **surface which works truly traveled and endured**, and to reflec
 ---
 
 ## 🧮 Popularity Score Formula
+As part of the project we identified four indicators of popularity: 
+- number of times the poem was copied
+- the number of other poems in the manuscript which the poem was copied in
+- The data range from the first transcription of the poem to the last
+- The number of unique locations the poem occurred in  
+I began by weighting each indicator equally translating it into a score between 0 and 1 by dividing each indicator by the maximum of the indicator:
 
 ```text
 Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
