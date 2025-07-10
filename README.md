@@ -27,6 +27,7 @@ Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
 ```
 
 ## Repository Structure
+```text
 stemma-popularity/
 ├── csv_pipeline/
 │   ├── __init__.py
@@ -50,7 +51,7 @@ stemma-popularity/
 ├── scripts/            # (optional shared utils or CLI)
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🗃️ Optional: Using the SQL File with PostgreSQL
