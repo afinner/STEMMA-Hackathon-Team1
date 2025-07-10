@@ -38,6 +38,29 @@ stemma-popularity/
 ├── LICENSE
 └── README.md
 ```
+---
+
+## 🗃️ Optional: Using the SQL File with PostgreSQL
+
+If you prefer to work with a structured SQL database instead of raw CSVs, you can import the full dataset into PostgreSQL using the provided `.sql` dump.
+
+### 🔽 1. Download the SQL file
+
+The full dataset is available as a PostgreSQL-compatible SQL dump:
+
+📥 [Download from Google Drive](https://your-download-link-here)
+
+---
+
+### 🛠️ 2. Set up PostgreSQL
+
+Make sure you have PostgreSQL installed. You can use [Postgres.app](https://postgresapp.com/), Docker, or your system’s package manager:
+
+```bash
+# Example (Ubuntu/Debian)
+sudo apt install postgresql
+
+
 ## 🎥 Presentation
 
 - 📊 **Slide deck**  
