@@ -24,6 +24,7 @@ The goal is to **surface which works truly traveled and endured**, and to reflec
 
 ```text
 Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
+'''
 
 ## Repository Structure
 stemma-popularity/
