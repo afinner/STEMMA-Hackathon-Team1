@@ -59,7 +59,7 @@ Make sure you have PostgreSQL installed. You can use [Postgres.app](https://post
 ```bash
 # Example (Ubuntu/Debian)
 sudo apt install postgresql
-
+```
 
 ## 🎥 Presentation
 
