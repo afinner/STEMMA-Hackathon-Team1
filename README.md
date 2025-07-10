@@ -27,17 +27,30 @@ Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
 ```
 
 ## Repository Structure
-```text
 stemma-popularity/
-├── data/                  # Manuscript metadata and inputs
-├── notebooks/             # Jupyter notebooks for analysis and demo
-├── scripts/               # Modular Python scripts
-├── results/               # Output scores and charts
-├── presentation/          # Slides, flowchart, and recordings
-├── requirements.txt       # Dependencies
-├── LICENSE
+├── csv_pipeline/
+│   ├── __init__.py
+│   ├── normalize_dates.py
+│   ├── calculate_popularity.py
+│   ├── weight_by_manuscript.py
+│   └── export_scores.py
+│
+├── psql_pipeline/
+│   ├── __init__.py
+│   ├── db_connect.py
+│   ├── query_normalize_dates.py
+│   ├── query_calculate_popularity.py
+│   ├── query_weight_by_manuscript.py
+│   └── export_scores_sql.py
+│
+├── data/
+├── results/
+├── notebooks/
+├── presentation/
+├── scripts/            # (optional shared utils or CLI)
+├── requirements.txt
 └── README.md
-```
+
 ---
 
 ## 🗃️ Optional: Using the SQL File with PostgreSQL
@@ -54,12 +67,8 @@ The full dataset is available as a PostgreSQL-compatible SQL dump:
 
 ### 🛠️ 2. Set up PostgreSQL
 
-Make sure you have PostgreSQL installed. You can use [Postgres.app](https://postgresapp.com/), Docker, or your system’s package manager:
-
-```bash
-# Example (Ubuntu/Debian)
-sudo apt install postgresql
-```
+Make sure you have PostgreSQL installed. I downloaded from [postgresql.org](https://www.postgresql.org/):
+I used both DBeaver and the VSCode plugin as clients to view data and queries.
 
 ## 🎥 Presentation
 
