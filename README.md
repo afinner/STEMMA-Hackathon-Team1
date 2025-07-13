@@ -112,8 +112,6 @@ I used both DBeaver and the VSCode plugin as clients to view data and queries.
 - 🔁 **Flowchart of algorithm**  
   _presentation/flowchart.png_
 
-- 📹 _Optional video demo (link if hosted externally)_
-
 ---
 
 ## 🧠 Reflections
@@ -122,7 +120,7 @@ This project evolved from several early approaches:
 
 - ❌ Lemmatising and matching poem first lines
 - ❌ Semantic embeddings and cosine similarities
-- ✅ Using CELM numbers and structured metadata
+- ✅ Using CELM numbers / work_id and structured metadata
 
 It reveals both the **possibilities and limits** of computational popularity in literary archives.
 
