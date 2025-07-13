@@ -151,5 +151,10 @@ MIT License – feel free to use, modify, or build upon this project.
 
 Thanks to the organizers of the **Stemma Hackathon** ([Stemma](https://stemma.universityofgalway.ie/)), and to all those preserving and cataloguing manuscript poetry and to the [Portershed](https://portershed.com/) for facilitating this event
 
+## TODO
+- Finish `weighting.py` for csv
+- Build UI with flask for most popular poems
+
+
 
 
