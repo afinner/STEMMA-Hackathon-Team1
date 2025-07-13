@@ -39,17 +39,11 @@ stemma-popularity/
 │
 ├── psql_pipeline/
 │   ├── __init__.py
-│   ├── db_connect.py
-│   ├── query_normalize_dates.py
 │   ├── query_calculate_popularity.py
-│   ├── query_weight_by_manuscript.py
 │   └── export_scores_sql.py
 │
-├── data/
 ├── results/
-├── notebooks/
 ├── presentation/
-├── scripts/            # (optional shared utils or CLI)
 ├── requirements.txt
 └── README.md
 ```
@@ -76,12 +70,15 @@ If you haven’t already:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/stemma-popularity.git
+git clone https://github.com/afinner/STEMMA-Hackathon-Team1.git
 cd stemma-popularity
 
 # Install dependencies
 pip install -r requirements.txt
 ```
+The full dataset is available as two 40 mb raw csv files:
+
+I don't have permission to share. You could contact [STEMMA](https://stemma.universityofgalway.ie/) to request data?
 
 ### 📂 Step 2: Run the CSV Pipeline
 
@@ -95,7 +92,7 @@ If you prefer to work with a structured SQL database instead of raw CSVs, you ca
 
 The full dataset is available as a PostgreSQL-compatible SQL dump:
 
-📥 [Download from Google Drive](https://your-download-link-here)
+I don't have permission to share. You could contact [STEMMA](https://stemma.universityofgalway.ie/) to request data?
 
 ---
 
