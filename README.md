@@ -116,19 +116,19 @@ Run the python file `query_calculate_popularity.py`
   _presentation/Popularity_Score_Presentation.pptx_
 
 - 🔁 **Flowchart of algorithm**  
-  _presentation/flowchart.png_
+  _presentation/pop_algorithm_flowchart.png_
 
 ---
 
 ## 🧠 Reflections
 
-This project evolved from several early approaches:
+This project evolved from several early approaches to organising missing data:
 
-- ❌ Lemmatising and matching poem first lines
-- ❌ Semantic embeddings and cosine similarities
-- ✅ Using CELM numbers / work_id and structured metadata
+- Lemmatising and matching poem first lines
+- Semantic embeddings and cosine similarities
+- Using CELM numbers / work_id and structured metadata
 
-It reveals both the **possibilities and limits** of computational popularity in literary archives.
+Lots of other groups went for the first two ideas and produced nice results
 
 ---
 
