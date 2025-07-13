@@ -8,7 +8,7 @@ def get_db_connection():
     return psycopg2.connect(
         dbname="stemma_db_copy", 
         user="postgres", 
-        password="andrewroot", 
+        password="**********", 
         host="localhost"
     )
 
