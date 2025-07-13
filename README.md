@@ -81,7 +81,7 @@ pip install -r requirements.txt
 ```
 The full dataset is available as two 40 mb raw csv files:
 
-I don't have permission to share. You could contact [STEMMA](https://stemma.universityofgalway.ie/) to request data?
+I don't have permission to share these files. You could contact [STEMMA](https://stemma.universityofgalway.ie/) to request the data?
 
 ### 📂 Step 2: Run the CSV Pipeline
 
@@ -100,7 +100,7 @@ If you prefer to work with a structured SQL database instead of raw CSVs, you ca
 
 The full dataset is available as a PostgreSQL-compatible SQL dump:
 
-I don't have permission to share. You could contact [STEMMA](https://stemma.universityofgalway.ie/) to request data?
+I don't have permission to share this file. You could contact [STEMMA](https://stemma.universityofgalway.ie/) to request the data?
 
 ---
 
