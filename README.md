@@ -85,7 +85,12 @@ I don't have permission to share. You could contact [STEMMA](https://stemma.univ
 
 ### 📂 Step 2: Run the CSV Pipeline
 
-
+Without the reweighted frequency (Update names of csv files):  
+1. Run `date_normalising.py`
+2. Run `popularity_score.py`
+3. Run `repositories.py`
+With the reweighted frequency:
+1. Just run `weighting.py` (Having problems atm)
 
 ## 🗃️ Option 2: Using the SQL File with PostgreSQL
 
@@ -104,6 +109,7 @@ I don't have permission to share. You could contact [STEMMA](https://stemma.univ
 Make sure you have PostgreSQL installed. I downloaded from [postgresql.org](https://www.postgresql.org/):
 I used both DBeaver and the VSCode plugin as clients to view data and queries.
 
+Run the python file `query_calculate_popularity.py`
 ## 🎥 Presentation
 
 - 📊 **Slide deck**  
