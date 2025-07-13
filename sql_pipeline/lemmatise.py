@@ -4,7 +4,7 @@ import psycopg2
 nlp = spacy.load("en_core_web_sm")
 
 # Connect to PostgreSQL
-conn = psycopg2.connect(database="stemma_db_copy", user="postgres", password="andrewroot", host="localhost")
+conn = psycopg2.connect(database="stemma_db_copy", user="postgres", password="**********", host="localhost")
 cur = conn.cursor()
 
 # Step 1: Fetch all first lines
