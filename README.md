@@ -26,6 +26,11 @@ I began by weighting each indicator equally translating it into a score between 
 ```text
 Popularity Score = (NormFreq + NormSpan + NormRepo) / 3
 ```
+However, I then modified this formula to weight some indicators more as it produced more consistent results:
+
+```text
+Popularity Score = 0.5 * NormFreq + 0.3 * NormSpan + 0.2 * NormRepo
+```
 
 ## Repository Structure
 ```text
