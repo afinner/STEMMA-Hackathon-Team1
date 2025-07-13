@@ -36,14 +36,12 @@ Popularity Score = 0.5 * NormFreq + 0.3 * NormSpan + 0.2 * NormRepo
 ```text
 stemma-popularity/
 ├── csv_pipeline/
-│   ├── __init__.py
 │   ├── date_nomalising.py
 │   ├── popularity_score.py
-│   ├── weight_by_manuscript.py
-│   └── export_scores.py
+│   ├── weighting.py
+│   └── repositories.py
 │
 ├── psql_pipeline/
-│   ├── __init__.py
 │   ├── query_calculate_popularity.py
 │   └── export_scores_sql.py
 │
