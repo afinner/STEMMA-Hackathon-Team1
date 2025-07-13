@@ -37,8 +37,8 @@ Popularity Score = 0.5 * NormFreq + 0.3 * NormSpan + 0.2 * NormRepo
 stemma-popularity/
 ├── csv_pipeline/
 │   ├── __init__.py
-│   ├── normalize_dates.py
-│   ├── calculate_popularity.py
+│   ├── date_nomalising.py
+│   ├── popularity_score.py
 │   ├── weight_by_manuscript.py
 │   └── export_scores.py
 │
