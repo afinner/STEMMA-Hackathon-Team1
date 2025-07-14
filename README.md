@@ -124,7 +124,7 @@ Run the python file `query_calculate_popularity.py`
 
 This project evolved from several early approaches to organising missing data:
 
-- Lemmatising and matching poem first lines
+- Lemmatising and matching poem first lines (Online lemmatisers: [here](https://leme.utoronto.ca/?page_id=37) and [here](https://morphadorner.northwestern.edu/lemmatizer/))
 - Semantic embeddings and cosine similarities
 - Using CELM numbers / work_id and structured metadata
 
